@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Instrucciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<h3>En el siguiente formulario se evaluaran los posibles riesgos y peligros que puede sufrir tu instalacion, para evaluar se utilizara el siguiente criterio de evaluación: </h3>
+<p>Frecuencia (F), se refiere al número de veces por unidad de tiempo en que se presenta el aspecto ambiental.</p>
+<table id="id"> <tr><th>Descripcion</th><th>Valor</th><th>Grado</th></tr>  <tr><th>Se presenta diariamente</th><th> Muy Alto</th><th>10</th></tr>  <tr><th>Se presenta una o dos veces por semana</th><th> Alto</th><th>7</th></tr> <tr><th>Se presenta una o dos veces al mes</th><th> Moderado</th><th>3</th></tr>  <tr><th>Se presenta una o dos veces al año</th><th> Bajo</th><th>1</th></tr> </table>
+
+<p>Naturaleza (N), representa el grado de toxicidad o peligrosidad del aspecto en sí, en función de sus características o componentes.</p>
+<table id="id"> <tr><th>Descripcion</th><th>Valor</th><th>Grado</th></tr>  <tr><th>de productos o insumos que impacten irreversiblemente el ambiente en su ciclo de vida</th><th> Catastrófico</th><th>10</th></tr>  <tr><th>de productos o servicios cuyo impacto en sus etapas del ciclo de vida tienen es difícil de corregir, no hay acciones de prevención al alcance del sistema) </th><th> Critico</th><th>7</th></tr> <tr><th> de productos o servicios cuyo impacto en sus etapas del ciclo de vida se puede corregir; en este grupo se incluye aquellos productos 100% reciclables o reutilizables, o servicios, cuyo impacto puede ser controlado por nuestro sistema) </th><th> Moderado</th><th>3</th></tr>  <tr><th>de productos o servicios cuyo impacto en sus etapas del ciclo de vida tienen un impacto que se puede corregir en forma natural, sin esfuerzo de reciclado o reutilización, o servicios, cuyo impacto puede ser controlado por nuestro sistema).</th> <th> Inofensivo</th><th>1</th></tr> </table>
+
+<p> Magnitud (M), expresión de la cantidad o extensión en que se genera el aspecto ambiental.</p>
+<table id="id"> <tr><th>Descripcion</th><th>Valor</th><th>Grado</th></tr>  <tr><th>Generación de residuos, emisiones y descargas fuera de los parámetros de diseño de los equipos. </th><th> Alto</th><th>10</th></tr>  <tr><th>Generación de residuos, emisiones y descargas, en el límite de los parámetros de diseño de los equipos. </th><th>Medio</th><th>3</th></tr> <tr><th> Generación de residuos, emisiones y descargas que cumplen holgadamente con las especificaciones de diseño de los equipos </th><th> Bajo</th><th>1</th></tr>  </table>
+
+<ion-button (click)="dismiss()">
+  Ok
+</ion-button>
+</ion-content>
